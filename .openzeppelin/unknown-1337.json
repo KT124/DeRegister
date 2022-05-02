@@ -1,0 +1,67 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xE39911Fc75Fe10306C8D3866f332d97ABaf13906",
+    "txHash": "0xb6c2a0296eeaf391a1e59a9107fb41d4fbd66955eb1c2a1b4751b438ac4713dd"
+  },
+  "proxies": [
+    {
+      "address": "0x7d0cfA82E3dB34C54e2DCB39cAb0b8C5366A1F18",
+      "txHash": "0xd104a3b9309156e2477238bc719414c756218bc6a9f933f911f0716f93ceb049",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa8ed67C61C7Dd0f26244B2aa959C506ADdbAdcf9",
+      "txHash": "0xdb9e1c9a5297c442cb5fc450a90013dca3894bf79cd87db07e907fcdb1951fa3",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x63A81afe40A2da0A3ABf4bB7115d9d5475fc72b4",
+      "txHash": "0x8d7241a84fbb953e0d4aaf64c18b3cb0f770d4acbfac4a9e577d1551c6353be9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x00633Cf80aD2BF8D0016B964020a8910570B80e7",
+      "txHash": "0x6d8f2610d7d1fe00fae73027242e8b31089e94e10c44bf7429bf068838f1d01a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7F448928BB3C38B627626C5d0D514CA78c70dfE9",
+      "txHash": "0x0c7147e8b668ef72d290c8afb32215559438f08c8030cef3cba26043e849c81b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x570955c8f3932A5c60E6D9059a2A88Be9E17EE7b",
+      "txHash": "0xe9320d7127048fb3c6f8b92f404121eb3b1eddf387129c9f11bc8e6fb05d235d",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "99d89f0903374f20d1e56d3e68d04d890c993c167a4881d1c49e3b5772896f25": {
+      "address": "0xC54C0fc0EbFE86716B9e6E9a8E498F4011b3ee52",
+      "txHash": "0xa106e57ab78a2780edfe33630bd4359fafe4e598b6ae0b5b1cd462afb49bf717",
+      "layout": {
+        "storage": [
+          {
+            "label": "registers",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_array(t_contract(Register)499)dyn_storage",
+            "contract": "RegisterFactory",
+            "src": "contracts\\Register.sol:12"
+          }
+        ],
+        "types": {
+          "t_array(t_contract(Register)499)dyn_storage": {
+            "label": "contract Register[]",
+            "numberOfBytes": "32"
+          },
+          "t_contract(Register)499": {
+            "label": "contract Register",
+            "numberOfBytes": "20"
+          }
+        }
+      }
+    }
+  }
+}
